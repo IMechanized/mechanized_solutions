@@ -1,0 +1,64 @@
+version: "3.7"
+services:
+  # mongo_db:
+  #   container_name: mongodb-container
+  #   image: mongo:latest
+  #   restart: unless-stopped
+  #   # env_file: ./.env
+  #   networks:
+  #     - project
+  #   environment:
+  #     - MONGO_INITDB_ROOT_USERNAME=metaads
+  #     - MONGO_INITDB_ROOT_PASSWORD=projectPass
+  #   volumes:
+  #     - db:/data/db
+
+  metaads-api:
+    container_name: metaads-api
+    #depends_on:
+    # - mongo_db  # Make sure to comment out this line if you're not using MongoDB locally
+    restart: unless-stopped
+    build:
+      context: ./
+    ports:
+      - 1337:1337
+    networks:
+      - project
+    environment:
+      PORT: 1337
+      # Remove the following lines as these will be set in your app's Docker container
+      MONGODB_URI: ${MONGODB_URI}
+      # MONGODB_DATABASE: metaads
+      # MONGODB_USER: metaads
+      # MONGODB_PASSWORD: R9l16N2NgK3CCl0x
+
+    stdin_open: true
+    tty: true
+
+  caddy:
+    image: caddy/caddy:2.7.5-alpine
+    container_name: caddy-server
+    restart: unless-stopped
+    cap_add:
+      - NET_ADMIN
+    depends_on:
+      - metaads-api
+    networks:
+      - project
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - ./site:/srv
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  db: {}
+  caddy_data:
+    external: true
+  caddy_config:
+
+networks:
+  project:

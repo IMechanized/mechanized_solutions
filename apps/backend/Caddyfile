@@ -1,0 +1,7 @@
+//  Add your subdomain here 
+subdomain_name.example.com {
+ reverse_proxy metaads-api:1337  {
+        header_down Strict-Transport-Security max-age=31536000 ;
+    }
+
+}

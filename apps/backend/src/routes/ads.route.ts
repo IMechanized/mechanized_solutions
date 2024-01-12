@@ -20,8 +20,12 @@ import requireUser, {
     requireSeller,
 } from '../middlewares/requireUser';
 import upload from '../utils/multer';
+import cors from "cors";
 
 function adsRoute(app: Express) {
+    app.use(cors({
+        origin: '*',
+    }))
     // create an ad
     app.post(
         '/api/v1/user/ads',

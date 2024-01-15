@@ -63,7 +63,7 @@ const Footer = () => {
       <div className="container mx-auto px-5 sm:px-0">
         <div className="flex flex-wrap lg:flex-nowrap items-center justify-center lg:justify-between pb-14">
           <h2 className="font-bold text-2xl sm:text-4xl text-white text-center pb-5 lg:pb-0">
-            Subscribe Our Newsletter
+            Subscribe To Our Newsletter
           </h2>
 
           <div className="relative left-0 right-0">
@@ -101,8 +101,7 @@ const Footer = () => {
               Meta <span className="text-themePrimary">Ads</span>
             </h3>
             <p className="text-lg text-themeWhiteLighter mb-5">
-              {`Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text`}
+              {`Providing industry-standard mechanization solutions.`}
             </p>
             <ul className="flex items-center space-x-3">
               {socialShare.map((item, index) => (

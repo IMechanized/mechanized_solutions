@@ -6,7 +6,7 @@ const Logo = () => {
         <Link href="/">
             <a>
                 <p className="text-themeBlackLight font-bold text-2xl">
-                    Meta <span className="text-themePrimary">Ads</span>
+                    Mechanized <span className="text-themePrimary">Solutions</span>
                 </p>
             </a>
         </Link>

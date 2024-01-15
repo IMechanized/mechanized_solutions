@@ -8,7 +8,7 @@ module.exports = {
             colors: {
                 themePrimary: '#068179',
                 themePrimaryLighter: '#E6F2F2',
-                themeSecondary: '#F27125',
+                themeSecondary: '#068179',
                 themeGreenLight: '#3EA875',
                 themeWhiteLow: '#66737F',
                 themeWhiteLight: '#F7F8F9',
@@ -20,7 +20,7 @@ module.exports = {
                 themeBlack: '#283746',
                 themeBlackDarker: '#1A2B3A',
                 themeBlackLighter: '#E7E9EE',
-                themeBlackAlt: '#001324',
+                themeBlackAlt: '#000000',
                 themeRedLight: '#FF4040',
                 themeYellowLight: '#FF9900',
                 themeGrayWhite: '#85929E',

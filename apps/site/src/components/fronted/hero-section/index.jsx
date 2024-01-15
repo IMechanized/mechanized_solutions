@@ -20,16 +20,16 @@ const Header = () => {
                 <div className="grid grid-cols-2 items-center justify-between z-20 relative px-5 sm:px-0">
                     <div className="col-span-2 lg:col-span-1 w-full ">
                         <h1 className="text-3xl lg:text-5xl  text-themeBlackAlt mt-16 mb-7 text-center sm:text-left font-bold">
-                            Simple and{' '}
+                            {' '}
                             <span className="text-themeSecondary leading-tight	">
-                                Awesome Heading
+                                Mechanized
                             </span>{' '}
-                            Text Here
+                            Solutions
                         </h1>
                         <p className="text-themeWhiteLighter text-lg lg:text-xl pb-11">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industrys standard dummy text
+                            Welcome to Mechanized Solutions – your one-stop destination for cutting-edge mechanization equipment,
+                            including top-tier agricultural machinery. Elevate your industrial processes with our high-performance solutions,
+                            carefully curated for efficiency and precision. Explore the future of advanced mechanization with us – where innovation meets quality.
                         </p>
 
                         <Search />
@@ -134,7 +134,7 @@ const Header = () => {
                                     </h4>
                                 </div>
                                 <p className="font-semibold text-lg text-themePrimary pt-2 sm:pt-0 text-center">
-                                    Active Seller
+                                    Active Sellers
                                 </p>
                             </div>
                             <span className="border-t sm:border border-themePrimary mt-2 h-6 sm:h-16 opacity-30"></span>

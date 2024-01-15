@@ -12,8 +12,7 @@ const Feedback = () => {
             Customer <span className="text-themeSecondary">Feedback</span>
           </h2>
           <p className="text-lg text-themeBlackAlt md:w-[38%] w-full mx-auto mt-5">
-            Lorem ipsum the dit adipiscing Aenean adicinging kiliuy scope mentin
-            scope mentin. scope mentin aenan.
+            This is what our happy customers and advertisers have to say.
           </p>
         </div>
 
@@ -29,10 +28,11 @@ const Feedback = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-14 sm:mx-5 pb-16 sm:pb-0">
             <div className="item py-4 px-1">
               <div className="p-7 bg-white rounded-2xl shadow-owlCard">
+                <h3 className="font-bold">"Exceptional Quality and Efficiency!"</h3>
                 <p className="text-base text-themeWhiteLighter mb-6">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industrys
-                  standard dummy text
+                  I recently purchased agricultural equipment from Mechanized Solutions, and I couldn't be more impressed.
+                  The quality and performance of the machinery exceeded my expectations.
+                  It has significantly enhanced our farming processes, making them more efficient and productive.
                 </p>
 
                 <div className="flex items-center gap-4">
@@ -45,7 +45,7 @@ const Feedback = () => {
 
                   <div>
                     <h5 className="text-themePrimary font-semibold text-lg">
-                      User Name Here
+                      Matt
                     </h5>
                     <div className="flex gap-1">
                       <RiStarFill className="text-themeYellowLight text-base" />
@@ -60,15 +60,16 @@ const Feedback = () => {
             </div>
             <div className="hidden sm:block  item py-4 px-1">
               <div className="p-7 bg-white rounded-2xl shadow-owlCard">
+                <h3 className='font-bold'>"Reliable Partner in Progress"</h3>
                 <p className="text-base text-themeWhiteLighter mb-6">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industrys
-                  standard dummy text
+                  Mechanized Solutions has become our go-to provider for cutting-edge equipment across various industries.
+                  Their commitment to innovation and top-tier machinery has positively impacted our business operations.
+                  The agricultural equipment we acquired has not only increased our output but has also streamlined our operations.
                 </p>
 
                 <div className="flex items-center gap-4">
                   <Image
-                    src={"/feedbackImg.png"}
+                    src={"/Rectangle 13 (9).png"}
                     width={48}
                     height={48}
                     alt="feedback"
@@ -76,7 +77,7 @@ const Feedback = () => {
 
                   <div>
                     <h5 className="text-themePrimary font-semibold text-lg">
-                      User Name Here
+                      Tammy
                     </h5>
                     <div className="flex gap-1">
                       <RiStarFill className="text-themeYellowLight text-base" />
@@ -91,23 +92,25 @@ const Feedback = () => {
             </div>
             <div className="hidden sm:block item py-4 px-1">
               <div className="p-7 bg-white rounded-2xl shadow-owlCard">
+                <h3 className='font-bold'>"Future-Ready Solutions!"</h3>
                 <p className="text-base text-themeWhiteLighter mb-6">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industrys
-                  standard dummy text
+                  We embraced the future of mechanization with Mechanized Solutions, and the results are outstanding.
+                  The diverse range of advanced equipment they offer is unmatched.
+                  Our recent purchase has not only improved efficiency but has also positioned us at the forefront of technological advancement in our industry.
                 </p>
 
                 <div className="flex items-center gap-4">
                   <Image
-                    src={"/feedbackImg.png"}
+                    src={"/Rectangle 13 (8).png"}
                     alt="feedback"
                     width={48}
                     height={48}
+                    border-radius={20}
                   />
 
                   <div>
                     <h5 className="text-themePrimary font-semibold text-lg">
-                      User Name Here
+                      Joseph
                     </h5>
                     <div className="flex gap-1">
                       <RiStarFill className="text-themeYellowLight text-base" />

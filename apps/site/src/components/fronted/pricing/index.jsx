@@ -19,8 +19,7 @@ const Pricing = () => {
             Pricing <span className="text-themeSecondary">Plan</span>
           </h2>
           <p className="text-lg text-themeBlackAlt md:w-[38%] w-full mx-auto mt-5">
-            Lorem ipsum the dit adipiscing Aenean adicinging kiliuy scope mentin
-            scope mentin. scope mentin aenan.
+            Select a plan suitable for your ad needs.
           </p>
         </div>
 

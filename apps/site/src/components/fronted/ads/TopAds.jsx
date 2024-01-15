@@ -79,11 +79,10 @@ const TopAds = () => {
                 <div className="text-center">
                     <h2 className="font-bold text-4xl text-themeBlackAlt">
                         Latest{' '}
-                        <span className="text-themeSecondary">Top Ads</span>
+                        <span className="text-themeSecondary">Equipment Ads</span>
                     </h2>
                     <p className="text-lg text-themeBlackAlt lg:w-[38%] w-full mx-auto mt-5">
-                        Lorem ipsum the dit adipiscing Aenean adicinging kiliuy
-                        scope mentin scope mentin. scope mentin aenan.
+                        See the latest top of the line equipment from our advertisers. Curated just for you.
                     </p>
                 </div>
 

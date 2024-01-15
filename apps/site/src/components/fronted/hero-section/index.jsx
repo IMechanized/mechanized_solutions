@@ -187,7 +187,7 @@ const Header = () => {
                                     </h4>
                                 </div>
                                 <p className="font-semibold text-lg text-themePrimary pt-2 sm:pt-0 text-center">
-                                    Total Customer
+                                    Total Customers
                                 </p>
                             </div>
                         </div>

@@ -28,12 +28,11 @@ const Category = () => {
             <div className="container mx-auto">
                 <div className="text-center">
                     <h2 className="font-bold text-4xl text-themeBlackAlt">
-                        Browse Ads{' '}
-                        <span className="text-themeSecondary">Category</span>
+                        Browse Ad{' '}
+                        <span className="text-themeSecondary">Categories</span>
                     </h2>
                     <p className="text-lg text-themeBlackAlt md:w-[38%] w-full mx-auto mt-5">
-                        Lorem ipsum the dit adipiscing Aenean adicinging kiliuy
-                        scope mentin scope mentin. scope mentin aenan.
+                        Browse our equipment ad categories and find something right for you.
                     </p>
                 </div>
 
@@ -167,7 +166,7 @@ const Category = () => {
                 <div className="mt-14 text-center">
                     <Link href="/all-categories" passHref>
                         <button className="bg-themeSecondary rounded-md text-white px-8 h-14">
-                            Browse All Category
+                            Browse All Categories
                         </button>
                     </Link>
                 </div>

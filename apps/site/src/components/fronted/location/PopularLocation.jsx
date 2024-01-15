@@ -80,8 +80,7 @@ const PopularLocation = () => {
                         <span className="text-themeSecondary">Location</span>
                     </h2>
                     <p className="text-lg text-themeBlackAlt md:w-[38%] w-full mx-auto mt-5">
-                        Lorem ipsum the dit adipiscing Aenean adicinging kiliuy
-                        scope mentin scope mentin. scope mentin aenan.
+                   Locations our advertisers and customers really like.
                     </p>
                 </div>
 

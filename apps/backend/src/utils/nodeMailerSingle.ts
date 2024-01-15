@@ -14,7 +14,7 @@ export async function sendSingleEmail(input: any) {
         let transporter = nodemailer.createTransport({
             host: process.env.NODEMAILER_HOST,
             port: process.env.NODEMAILER_PORT,
-            secure: process.env.NODEMAILER_SECURE === 'true' ? true : false,
+            secure: process.env.NODEMAILER_SECURE === 'true',
             auth: {
                 user: process.env.NODEMAILER_EMAIL,
                 pass: process.env.NODEMAILER_PASSWORD,

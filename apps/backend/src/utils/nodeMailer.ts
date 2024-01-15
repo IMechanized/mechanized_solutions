@@ -1,7 +1,7 @@
 import {
     ConfirmMailTemplate,
     DefaultMailTemplate,
-} from '../utils/mail-templates';
+} from './mail-templates';
 import config from 'config';
 import { sendNotification } from '../service/notification.service';
 
@@ -26,7 +26,7 @@ export async function sendNotificationEmail(input: any) {
         let transporter = nodemailer.createTransport({
             host: process.env.NODEMAILER_HOST,
             port: process.env.NODEMAILER_PORT,
-            secure: process.env.NODEMAILER_SECURE === 'true' ? true : false,
+            secure: process.env.NODEMAILER_SECURE === 'true',
             auth: {
                 user: process.env.NODEMAILER_EMAIL,
                 pass: process.env.NODEMAILER_PASSWORD,

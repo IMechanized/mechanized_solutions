@@ -157,9 +157,9 @@ const Footer = () => {
             <div className="flex items-center gap-4">
               <p className="bg-themePrimary py-3 px-3 rounded-xl"><FiMail className="text-2xl text-white" /></p>
               <p className="text-white text-base sm:text-lg">
-                info@example.com
+                info@mechanizedsolutions.com
                 <br />
-                support@example.com
+                support@mechanizedsolutions.com
               </p>
             </div>
             <Link href="/contact-us">
@@ -174,7 +174,7 @@ const Footer = () => {
       <div className="border-b border-footerBorder"></div>
       <div className="text-center text-white mt-6 pb-6 px-5 sm:px-0">
         <p>
-          © {fullYear} - <span className="font-bold">Brand Name</span>. All Right
+          © {fullYear} - <span className="font-bold">Mechanized Solutions</span>. All Rights
           Reserved
         </p>
       </div>

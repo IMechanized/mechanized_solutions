@@ -29,12 +29,12 @@ export const socialShare = [
 export const linkOne = [
     {
         id: 1,
-        name: "Footer LInk Here",
+        name: "Support",
         link: "/",
     },
     {
         id: 2,
-        name: "Footer LInk Here",
+        name: "Contact Us",
         link: "/",
     },
     {

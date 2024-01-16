@@ -43,8 +43,8 @@ export const menuList = [
     },
     {
         id: 3,
-        name: 'Category',
-        link: '/all-categories',
+        name: 'Corporate services',
+        link: '/corporate-services',
         icon: (
             <svg
                 width="20"

@@ -98,7 +98,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           <div className="lg:border-r border-footerBorder pt-16 md:py-16">
             <h3 className="text-3xl font-bold text-white mb-5">
-              Meta <span className="text-themePrimary">Ads</span>
+              Mechanized <span className="text-themePrimary">Solutions</span>
             </h3>
             <p className="text-lg text-themeWhiteLighter mb-5">
               {`Providing industry-standard mechanization solutions.`}
@@ -116,7 +116,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="lg:border-r border-footerBorder md:pt-16">
-            <h4 className="text-2xl text-white font-bold mb-5">Quick Link</h4>
+            <h4 className="text-2xl text-white font-bold mb-5">Quick Links</h4>
             <div className="flex space-x-10">
               <ul>
                 {linkOne.map((item, index) => (

@@ -77,7 +77,7 @@ const PopularLocation = () => {
                 <div className="text-center">
                     <h2 className="font-bold text-4xl text-themeBlackAlt">
                         Popular{' '}
-                        <span className="text-themeSecondary">Location</span>
+                        <span className="text-themeSecondary">Locations</span>
                     </h2>
                     <p className="text-lg text-themeBlackAlt md:w-[38%] w-full mx-auto mt-5">
                    Locations our advertisers and customers really like.

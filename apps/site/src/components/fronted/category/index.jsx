@@ -164,7 +164,7 @@ const Category = () => {
                 )}
 
                 <div className="mt-14 text-center">
-                    <Link href="/all-categories" passHref>
+                    <Link href="/apps/site/pages/corporate-services" passHref>
                         <button className="bg-themeSecondary rounded-md text-white px-8 h-14">
                             Browse All Categories
                         </button>

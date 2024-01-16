@@ -57,7 +57,7 @@ const VerifyEmail = () => {
     return (
         <div>
             <Head>
-                <title>Verify email - Meta Ads</title>
+                <title>Verify email - Mechanized Solutions</title>
                 <meta name="description" content="New password setup" />
             </Head>
 

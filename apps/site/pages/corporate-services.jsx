@@ -28,7 +28,7 @@ const Category = () => {
     return (
         <>
             <Head>
-                <title>Category</title>
+                <title>Corporate Services</title>
                 <meta name="viewport" content="" />
             </Head>
 
@@ -39,7 +39,7 @@ const Category = () => {
                         <div className="container mx-auto">
                             <div className="py-24 relative">
                                 <h1 className="font-bold text-2xl sm:text-4xl text-[white] text-center mb-12">
-                                    All Category
+                                    Corporate Services
                                 </h1>
                                 <div className="absolute md:-bottom-24 lg:-bottom-9 left-0 right-0 w-fit sm:w-full rounded-lg mx-5 sm:m-auto">
                                     <Search />

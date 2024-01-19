@@ -129,11 +129,11 @@ const Footer = () => {
               </ul>
               <ul>
                 {linkTwo.map((item, index) => (
-                  <li key={index}>
-                    <Link href={item.link}>
-                      <a className="text-themeGrayLight block mb-4 transition duration-300 ease-in-out hover:text-themePrimary">{item.name}</a>
-                    </Link>
-                  </li>
+                    <li key={index}>
+                      <Link href={item.link}>
+                        <a className="text-themeGrayLight block mb-4 transition duration-300 ease-in-out hover:text-themePrimary">{item.name}</a>
+                      </Link>
+                    </li>
                 ))}
               </ul>
             </div>

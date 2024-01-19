@@ -29,19 +29,20 @@ export const socialShare = [
 export const linkOne = [
     {
         id: 1,
-        name: "Support",
-        link: "/",
+        name: "All ads",
+        link: "/all-ads",
     },
     {
         id: 2,
         name: "Contact Us",
-        link: "/",
+        link: "/contact-us",
     },
     {
         id: 3,
-        name: "Footer LInk Here",
-        link: "/",
+        name: "Corporate Services",
+        link: "/corporate-services",
     },
+    /*
     {
         id: 4,
         name: "Footer LInk Here",
@@ -52,20 +53,23 @@ export const linkOne = [
         name: "Footer LInk Here",
         link: "/",
     },
+     */
 ]
 
 // Quick link column two
+
 export const linkTwo = [
     {
         id: 1,
-        name: "Footer LInk Here",
-        link: "/",
+        name: "Advertisers",
+        link: "/advertisers",
     },
     {
         id: 2,
-        name: "Footer LInk Here",
-        link: "/",
+        name: "Blog",
+        link: "/news-blog",
     },
+    /*
     {
         id: 3,
         name: "Footer LInk Here",
@@ -81,4 +85,5 @@ export const linkTwo = [
         name: "Footer LInk Here",
         link: "/",
     },
+     */
 ]

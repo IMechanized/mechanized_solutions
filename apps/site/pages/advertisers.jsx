@@ -38,7 +38,7 @@ const SellerPage = () => {
     return (
         <>
             <Head>
-                <title>Sellers</title>
+                <title>Our Advertisers</title>
                 <meta
                     name="viewport"
                     content="initial-scale=1.0, width=device-width"
@@ -51,7 +51,7 @@ const SellerPage = () => {
                         <div className="container mx-auto">
                             <div className="py-28 relative ">
                                 <h1 className="font-bold text-2xl sm:text-4xl text-white text-center">
-                                    Our Best Sellers
+                                    Our Advertisers
                                 </h1>
                             </div>
                         </div>
@@ -61,11 +61,11 @@ const SellerPage = () => {
                         {/* <!-- filter section --> */}
                         <div className="bg-white p-7 rounded-lg shadow-filterShadow">
                             <h1 className="text-themeBlackAlt text-lg md:text-2xl font-bold text-center">
-                                We Have Total{' '}
+                                We Have {' '}
                                 <span className="text-themePrimary">
                                     {sellerCount}
                                 </span>{' '}
-                                Exclusive Seller{sellerCount > 1 && 's'}
+                                Exclusive Advertisers{sellerCount > 1 && 's'}
                             </h1>
 
                             <hr className="mt-5 md:hidden" />

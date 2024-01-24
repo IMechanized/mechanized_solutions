@@ -8,13 +8,13 @@ services:
   #   networks:
   #     - project
   #   environment:
-  #     - MONGO_INITDB_ROOT_USERNAME=metaads
+  #     - MONGO_INITDB_ROOT_USERNAME=mechanized_solutions
   #     - MONGO_INITDB_ROOT_PASSWORD=projectPass
   #   volumes:
   #     - db:/data/db
 
   metaads-api:
-    container_name: metaads-api
+    container_name: mechanized_solutions-api
     #depends_on:
     # - mongo_db  # Make sure to comment out this line if you're not using MongoDB locally
     restart: unless-stopped
@@ -28,8 +28,8 @@ services:
       PORT: 1337
       # Remove the following lines as these will be set in your app's Docker container
       MONGODB_URI: ${MONGODB_URI}
-      # MONGODB_DATABASE: metaads
-      # MONGODB_USER: metaads
+      # MONGODB_DATABASE: mechanized_solutions
+      # MONGODB_USER: mechanized_solutions
       # MONGODB_PASSWORD: R9l16N2NgK3CCl0x
 
     stdin_open: true

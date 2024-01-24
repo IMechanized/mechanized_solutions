@@ -15,7 +15,7 @@ type ThemeConfig = {
 
 const themeConfig: ThemeConfig = {
   site_name: 'Meta Ads',
-      site_url: 'www.mechanized_solutions.net',
+      site_url: 'www.metaads.net',
       site_link: 'https://www.metaads.net',
 
       // mail template color setup

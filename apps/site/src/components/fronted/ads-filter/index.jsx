@@ -202,7 +202,7 @@ const AdsFilter = ({ setCurrentPage }) => {
                   setCategory(e.target.value)
                 }}
               >
-                <option value="">All Categories</option>
+                <option value="">All Category</option>
                 {adsCategoryData &&
                   _.map(adsCategoryData, (item, index) => (
                     <option key={item.categoryTitle} value={item.categoryTitle}>
@@ -226,7 +226,7 @@ const AdsFilter = ({ setCurrentPage }) => {
                   setAdsType(e.target.value)
                 }}
               >
-                <option value="">Ads Types</option>
+                <option value="">Ads Type</option>
                 {adType &&
                   _.map(adType, (item, index) => (
                     <option key={item} value={item}>

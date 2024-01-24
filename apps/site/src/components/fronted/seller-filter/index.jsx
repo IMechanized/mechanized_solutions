@@ -169,7 +169,7 @@ const SellerFilter = ({ setCurrentPage }) => {
               <input
                 className="h-14 border border-themeGrayWhiteer px-3 rounded w-full focus:outline-none"
                 type="text"
-                placeholder="Search Advertisers"
+                placeholder="Search Seller"
                 {...seller_Title}
                 onChange={(e) => {
                   seller_Title.onChange(e)
@@ -206,7 +206,7 @@ const SellerFilter = ({ setCurrentPage }) => {
                   setSellersType(e.target.value)
                 }}
               >
-                <option value="">Advertiser Type</option>
+                <option value="">Seller Type</option>
                 <option value="verified">Verified</option>
                 <option value="non-verified">Non-Verified</option>
               </select>

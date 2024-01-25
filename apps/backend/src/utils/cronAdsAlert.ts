@@ -36,7 +36,7 @@ const adsAlertFunction = (schedule: any, queryTime: any, day: any) => {
                 const alertAds = await searchAdByAlert(singleAlert)
                 const emailData = {
                     senderAddress: 'Meta-Ads Ads Alerts',
-                    senderEmail: 'info@metaads.com',
+                    senderEmail: 'info@mechanized_solutions.com',
                     subject: 'Ads Alert',
                     message: `You have got ${alertAds.length} ads results ${day}`,
                     emailType: 'ADS_ALERT',

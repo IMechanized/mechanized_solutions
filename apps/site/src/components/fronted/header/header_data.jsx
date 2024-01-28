@@ -62,8 +62,8 @@ export const menuList = [
     },
     {
         id: 4,
-        name: 'Sellers',
-        link: '/sellers',
+        name: 'advertisers',
+        link: '/advertisers',
         icon: (
             <svg
                 width="20"

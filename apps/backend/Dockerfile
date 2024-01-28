@@ -2,11 +2,11 @@ FROM node:18.18.2
 
 ADD package.json /tmp/package.json
 
-ADD yarn.lock /tmp/yarn.lock
+ADD package-lock.json /tmp/package-lock.json
 
 RUN rm -rf build
 
-RUN cd /tmp && yarn install
+RUN cd /tmp && npm install
 
 ADD ./ /src
 

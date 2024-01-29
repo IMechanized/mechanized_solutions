@@ -6,7 +6,7 @@ ADD package.json /tmp/package.json
 
 RUN rm -rf build
 
-RUN cd /tmp && pnpm install
+RUN cd /tmp && npm install
 
 ADD ./ /src
 
@@ -14,7 +14,7 @@ RUN rm -rf src/node_modules && cp -a /tmp/node_modules /src/
 
 WORKDIR /src
 
-RUN pnpm -F backend build
+RUN npm build
 
 EXPOSE 1337
 

@@ -2,11 +2,11 @@ FROM node:18.18.2
 
 ADD package.json /tmp/package.json
 
-ADD yarn.lock /tmp/yarn.lock
+#ADD yarn.lock /tmp/yarn.lock
 
 RUN rm -rf build
 
-RUN cd /tmp && yarn install
+RUN cd /tmp && pnpm install
 
 ADD ./ /src
 
@@ -14,7 +14,7 @@ RUN rm -rf src/node_modules && cp -a /tmp/node_modules /src/
 
 WORKDIR /src
 
-RUN yarn build
+RUN pnpm -F backend build
 
 EXPOSE 1337
 

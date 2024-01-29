@@ -14,13 +14,11 @@ export async function sendSingleEmail(input: any) {
         let transporter = nodemailer.createTransport({
             host: process.env.NODEMAILER_HOST,
             port: process.env.NODEMAILER_PORT,
-            secure: process.env.NODEMAILER_SECURE === 'true',
+            secure: process.env.NODEMAILER_SECURE === 'true' ? true : false,
             auth: {
                 user: process.env.NODEMAILER_EMAIL,
                 pass: process.env.NODEMAILER_PASSWORD,
             },
-            connectionTimeout: 10000,
-            debug: true,
         });
 
         const mailOptions = {

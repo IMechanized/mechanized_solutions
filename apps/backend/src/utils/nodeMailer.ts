@@ -1,7 +1,7 @@
 import {
     ConfirmMailTemplate,
     DefaultMailTemplate,
-} from './mail-templates';
+} from '../utils/mail-templates';
 import config from 'config';
 import { sendNotification } from '../service/notification.service';
 
@@ -26,13 +26,11 @@ export async function sendNotificationEmail(input: any) {
         let transporter = nodemailer.createTransport({
             host: process.env.NODEMAILER_HOST,
             port: process.env.NODEMAILER_PORT,
-            secure: process.env.NODEMAILER_SECURE === 'true',
+            secure: process.env.NODEMAILER_SECURE === 'true' ? true : false,
             auth: {
                 user: process.env.NODEMAILER_EMAIL,
                 pass: process.env.NODEMAILER_PASSWORD,
             },
-            connectionTimeout: 10000,
-            debug: true,
         });
         console.log('Nodemailer input', input);
 
@@ -125,7 +123,6 @@ export async function sendNotificationEmail(input: any) {
                     });
         }
     } catch (e) {
-        console.error("Error sending email: ", e)
         throw e;
     }
 }

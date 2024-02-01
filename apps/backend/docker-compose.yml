@@ -27,7 +27,7 @@ services:
     environment:
       PORT: 1337
       # Remove the following lines as these will be set in your app's Docker container
-      MONGODB_URI: ${MONGODB_URI}
+      MONGODB_URI: "mongodb+srv://MechaMongo:SphA09BL1zg9E01B@mechatest.pvzz6mc.mongodb.net/?retryWrites=true&w=majority"
       # MONGODB_DATABASE: metaads
       # MONGODB_USER: metaads
       # MONGODB_PASSWORD: R9l16N2NgK3CCl0x

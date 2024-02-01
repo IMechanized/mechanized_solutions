@@ -14,6 +14,8 @@ RUN rm -rf src/node_modules && cp -a /tmp/node_modules /src/
 
 WORKDIR /src
 
+RUN npm install -g pnpm
+
 RUN pnpm -F backend build
 
 EXPOSE 1337

@@ -31,7 +31,7 @@ const TableLarge = ({ adsCategoryData, adsCategoryError, categoryIds, setCategor
         method: "PUT",
         url: `/ads/category/status/${id}`,
         data: {
-          status: "enbable",
+          status: "enable",
         },
       })
         .then((res) => {
@@ -101,7 +101,7 @@ const TableLarge = ({ adsCategoryData, adsCategoryError, categoryIds, setCategor
   const deleteSingleCategory = (id) => {
     sweetAlert({
       title: "Are you sure?",
-      text: "You want to delete this category?",
+      text: "You want to delete this service?",
       icon: "warning",
       buttons: true,
       dangerMode: true,
@@ -180,7 +180,7 @@ const TableLarge = ({ adsCategoryData, adsCategoryError, categoryIds, setCategor
               scope="col"
               className="text-base font-semibold text-themeBlackAlt py-4 xl:w-28 text-left whitespace-nowrap"
             >
-              Category Title
+              Service Title
             </th>
 
             <th

@@ -22,17 +22,17 @@ const menu = [
     },
     {
         id: 3,
-        name: 'Category',
-        link: '/category',
+        name: 'Corporate services',
+        link: '/corporate-services',
     },
     {
         id: 4,
-        name: 'Sellers',
-        link: '/sellers',
+        name: 'Advertisers',
+        link: '/advertisers',
     },
     {
         id: 5,
-        name: 'New & Blog',
+        name: 'News & Blog',
         link: '/news-blog',
     },
     {

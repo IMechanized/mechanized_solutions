@@ -128,7 +128,7 @@ const MainNavBar = () => {
               }`}
             >
               <div className="flex justify-between pb-7 px-7">
-                <h2 className="text-xl text-white font-bold ">Meta Ads</h2>
+                <h2 className="text-xl text-white font-bold ">Mechanized Solutions</h2>
                 <svg
                   onClick={() => close(!open)}
                   className="cursor-pointer"

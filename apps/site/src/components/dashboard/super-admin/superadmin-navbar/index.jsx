@@ -27,13 +27,13 @@ const menu = [
     },
     {
         id: 3,
-        name: 'Category',
-        link: '/all-categories',
+        name: 'Corporate services',
+        link: '/corporate-services',
     },
     {
         id: 4,
-        name: 'Sellers',
-        link: '/sellers',
+        name: 'Advertisers',
+        link: '/advertisers',
     },
     {
         id: 5,
@@ -246,9 +246,9 @@ const SuperAdminNavbar = ({ isOpen, isClose }) => {
                                 <a>
                                     <p className="text-themeBlackLight font-bold text-2xl">
                                         <span className="text-themePrimary">
-                                            Meta
+                                            Mechanized
                                         </span>{' '}
-                                        Ads
+                                        Solutions
                                     </p>
                                 </a>
                             </Link>

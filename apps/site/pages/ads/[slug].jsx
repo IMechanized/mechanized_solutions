@@ -270,7 +270,7 @@ const SingleAds = () => {
     return (
         <>
             <Head>
-                <title>Ads Details</title>
+                <title>Ad Details</title>
                 <meta name="viewport" content="" />
             </Head>
             <Layout>
@@ -725,7 +725,7 @@ const SingleAds = () => {
                                                         >
                                                             <a className="text-xs sm:text-sm font-semibold text-themePrimary">
                                                                 <button className="bg-themePrimaryLighter rounded-lg py-3 px-7 mt-4">
-                                                                    View Seller
+                                                                    View Advertiser
                                                                     Profile
                                                                 </button>
                                                             </a>
@@ -758,7 +758,7 @@ const SingleAds = () => {
                                                             <p className="text-base font-normal text-themeBlackAlt lg:whitespace-nowrap">
                                                                 Use a safe
                                                                 location to meet
-                                                                seller
+                                                                advertiser
                                                             </p>
                                                         </div>
                                                     </div>
@@ -796,7 +796,7 @@ const SingleAds = () => {
                                             {/* <!-- form section --> */}
                                             <div className="bg-white p-7 rounded-2xl mt-9 h-full">
                                                 <p className="text-2xl font-bold text-themeBlackAlt pb-8">
-                                                    Contact With Seller
+                                                    Contact With Advertiser
                                                 </p>
                                                 <form
                                                     className="w-full"

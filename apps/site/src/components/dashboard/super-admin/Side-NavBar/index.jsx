@@ -68,7 +68,7 @@ const SideNavBar = ({ isOpen, isClose, menu }) => {
                                             />
                                         </svg>
                                         <p className="text-sm font-semibold text-themeBlackDarker group-hover:text-white mt-0.5">
-                                            Logouts
+                                            Log out
                                         </p>
                                     </a>
                                 </button>

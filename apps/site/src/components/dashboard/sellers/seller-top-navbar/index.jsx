@@ -55,8 +55,8 @@ const menuList = [
   },
   {
     id: 3,
-    name: 'Category',
-    link: '/all-categories',
+    name: 'Corporate services',
+    link: '/corporate-services',
     icon: (
       <svg
         width="20"
@@ -74,8 +74,8 @@ const menuList = [
   },
   {
     id: 4,
-    name: 'Sellers',
-    link: '/sellers',
+    name: 'advertisers',
+    link: '/advertisers',
     icon: (
       <svg
         width="20"
@@ -217,7 +217,7 @@ const SellerTopNavbar = () => {
                 <Link href="/">
                   <a>
                     <p className="text-themeBlackLight font-bold text-2xl">
-                      Meta <span className="text-themePrimary">Ads</span>
+                      Mechanized <span className="text-themePrimary">Solutions</span>
                     </p>
                   </a>
                 </Link>

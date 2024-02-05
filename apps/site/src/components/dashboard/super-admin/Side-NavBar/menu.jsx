@@ -57,7 +57,7 @@ export const sideAdminMenu = [
         link: '/dashboard/ads',
     },
     {
-        name: 'Ads Category',
+        name: 'Service category',
         icon: (
             <svg
                 width="18"

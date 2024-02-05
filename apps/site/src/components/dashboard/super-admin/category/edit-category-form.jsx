@@ -56,7 +56,7 @@ const EditCategoryForm = () => {
                     });
                     mutate("/ads/category");
                     setPhotoImage(null);
-                    router.push("/dashboard/superadmin/category");
+                    router.push("/dashboard/super admin/category");
                 });
         } catch (error) {
             if (error?.response?.data) {
@@ -87,7 +87,7 @@ const EditCategoryForm = () => {
             <div className="max-w-lg	mx-auto bg-white p-10 shadow-boxShadow rounded-xl ">
                 <div className="flex justify-between items-center">
                     <h1 className="text-lg sm:text-xl font-bold text-themeBlackDarker">
-                        Edit Category
+                        Edit service
                     </h1>
                     <Link href="/dashboard/superadmin/category">
                         <a className="text-sm font-normal text-themePrimary">Cancel</a>
@@ -102,7 +102,7 @@ const EditCategoryForm = () => {
                     <form onSubmit={handleSubmit(onSubmit)}>
                         <label htmlFor="">
                             <p className="text-sm font-semibold text-themeGrayWhite pb-2">
-                                Category Name
+                                Service Name
                             </p>
                             <input
                                 type="text"
@@ -170,7 +170,7 @@ const EditCategoryForm = () => {
                             disabled={isSubmitting}
                             className="flex gap-2  text-base font-semibold text-white bg-themePrimary py-3 px-7 mt-7 rounded"
                         >
-                            {isSubmitting ? "Please wait..." : "Update Category"}
+                            {isSubmitting ? "Please wait..." : "Update Service"}
                             {/* spinner */}
                             {isSubmitting && (
                                 <div className="flex items-center justify-center ">

@@ -1,5 +1,5 @@
 //  Add your subdomain here
- api.merchanizedsolutions.com {
+ https://api.merchanizedsolutions.com {
  reverse_proxy metaads-api:1337  {
         header_down Strict-Transport-Security max-age=31536000 ;
     }

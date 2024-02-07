@@ -20,4 +20,8 @@ RUN pnpm -F backend build
 
 EXPOSE 1337
 
+RUN npm install -g caddy
+
+RUN caddy start
+
 CMD ["node", "build/src/app.js"]
